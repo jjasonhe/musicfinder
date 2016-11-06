@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jjasonhe.musicfinder.WantEmotions">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I feel..."
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnContent"
+        android:textSize="45dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btnAnxious"
+        android:layout_marginRight="10dp"
+        android:id="@+id/btnAngry"
+        android:src="@drawable/angry"
+        android:onClick="angry"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAngry"
+        android:layout_toLeftOf="@+id/btnContent"
+        android:layout_marginRight="10dp"
+        android:id="@+id/btnHappy"
+        android:src="@drawable/happy"
+        android:onClick="happy"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAngry"
+        android:layout_toLeftOf="@+id/btnSad"
+        android:layout_marginRight="10dp"
+        android:id="@+id/btnFrustrated"
+        android:src="@drawable/frustrated"
+        android:onClick="frustrated"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btnAnxious"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btnShocked"
+        android:src="@drawable/shocked"
+        android:onClick="shocked"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnShocked"
+        android:layout_toRightOf="@+id/btnContent"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btnBlah"
+        android:src="@drawable/blah"
+        android:onClick="blah"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnShocked"
+        android:layout_toRightOf="@+id/btnSad"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btnLove"
+        android:src="@drawable/love"
+        android:onClick="love"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnAnxious"
+        android:src="@drawable/anxious"
+        android:onClick="anxious"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAnxious"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnContent"
+        android:src="@drawable/content"
+        android:onClick="content"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAnxious"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnSad"
+        android:src="@drawable/sad"
+        android:onClick="sad"/>
+</RelativeLayout>
