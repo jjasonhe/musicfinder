@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/windowBackground"
     tools:context="jjasonhe.musicfinder.WantEmotions">
 
     <TextView
@@ -11,6 +12,7 @@
         android:text="I feel..."
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/btnContent"
+        android:id="@+id/tv"
         android:textSize="45dp"
         android:layout_marginBottom="20dp"/>
 

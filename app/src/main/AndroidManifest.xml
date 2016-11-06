@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".FeelEmotions" />
-        <activity android:name=".WantEmotions"></activity>
+        <activity android:name=".WantEmotions" />
+        <activity android:name=".CarouselActivity"></activity>
     </application>
 
 </manifest>
